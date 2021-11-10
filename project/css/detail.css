@@ -1,0 +1,122 @@
+/* **************Start Style for Item Detail *********************/
+.item-detail-section{
+    background-color:#fffdca;
+    padding-top:140px;
+    /* height:800px; */
+}
+.aside-view-img-box{
+    width:60px;
+    height:60px;
+    margin-bottom:10px;
+}
+.outer-center-view{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.btn-slide-arrow-box{
+    width:80px;
+    height:80px;
+}
+.btn-slide-arrow{
+  
+    border-radius:50%;
+    border:1px solid #d2d2d2;
+}
+.btn-arrow-left{
+padding:5px 10px;
+margin-right:20px;
+color:#5c4123;
+}
+.btn-arrow-right{
+padding:5px 10px;
+margin-left:20px;
+color:#5c4123;
+}
+.aside-view-img{
+    width:100%;
+}
+.center-view-img{
+    width:100%;
+}
+.quantity-box{
+    display:flex;
+    align-items: center;
+}
+.quantity{
+    margin-right:20px;
+    font-weight:bolder;
+}
+.quantity-control{
+    display:flex;
+}
+.btn-qty{
+    width:40px;
+    height:40px;
+    background-color:#d2d2d2;
+    border:1px solid #d2d2d2;
+    text-align:center;
+}
+.current-qty{
+    display:flex;
+    align-self: center;
+    width:40px;
+    height:40px;
+    padding:10px 30px !important;
+    text-align:center !important;
+    /* background-color:#fff; */
+    font-weight:bolder;
+}
+.btn-buy-cart{
+   
+    width:45%;
+    margin-top:30px;
+    padding:10px;
+    font-weight:bolder;
+}
+.btn-detail-buy-now{
+background-color:#028f25;
+border:1px solid #07c941;
+
+
+}
+.btn-add-to-cart{
+    margin-left:5%;
+    background-color:#F4B400;
+    border:1px solid #dda201;
+
+}
+.add-to-cart{
+    color:red;
+    margin-right:5px;
+}
+
+.detail-review-card{
+    width:100%;
+    height:150px;
+}
+.detail-review-profile{
+    display:flex;
+    align-self: center;
+}
+.profile-rating{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.send-review{
+    padding:5px;
+    font-size:15px;
+    border-radius:5px;
+    background-color:#F4B400;
+    border:1px solid #dda201;
+}
+.review-header{
+    color:#5c4123;
+    font-weight:bolder;
+    font-style: italic;
+}
+.star{
+    color:red;
+}
+/* ***************End Style for Item Detail **********************/
