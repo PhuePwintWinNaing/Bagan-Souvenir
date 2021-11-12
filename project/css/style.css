@@ -15,12 +15,10 @@
     font-family:"Website Header";
     src:url("../fonts/Draconian.ttf");
 }
-
 @font-face{
     font-family:"Gallery Header";
     src:url("../fonts/Draconian.ttf");
 }
-
 @font-face{
     font-family:"Banner Text";
     src:url("../fonts/SourceSansPro-BoldItalic.ttf")
@@ -37,7 +35,6 @@
     font-family:"Section Header";
     src:url("../fonts/Lato-Black.ttf");
 }
-
 @font-face{
     font-family:"Card Title";
     src:url("../fonts/Lato-Semibold.ttf");
@@ -112,7 +109,6 @@
 }
 .btn-login{
     width:70px;
-    /* padding:4px 5px; */
     border-radius:10px;
     background-color:transparent;
     border:1px solid #fff;
@@ -124,14 +120,12 @@
 .btn-register{
     margin-left:10px;
     width:70px;
-    /* padding:4px 5px; */
     border-radius:10px;
    background-color:#A2580F;
    border:1px solid #A2580F;
    color:#fff;
     text-align:center;
     font-size:14px;
-
 }
 
 .website-header{
@@ -186,8 +180,8 @@
     font-size:17px;
     background: linear-gradient(to right,#e9066c,#9e040c,#048019,#0f3a16, #3e077e,
     #c92e08);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     
 }
 .my-nav-active{
@@ -196,13 +190,13 @@
     border-bottom-color: rgb(92, 65, 35);
 }
 
-/* End Header Section Style */
+/*********************** End Header Section Style ***************************/
 
 /* Start Banner Section Style */
 .my-banner-section{
     margin-top:110px;
     height:400px;
-    background-color:#A06D5E;
+   
 }
 .banner-img-box{
     position:relative;
@@ -224,11 +218,13 @@ letter-spacing:0.15rem;
 word-spacing:0.3rem;
 line-height:1.9rem;
 color:#F5C6A5;
-background: linear-gradient(to right,#440820,#240417,#d34706, #4e3002,
+font-weight:bolder;
+background: linear-gradient(to right,#8f2e01,#440820,#240417, #4e3002,
     #700764);
 
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
+text-shadow:5px 5px 10px rgb(151, 3, 60);
 
 }
 .banner-btn-box{
@@ -254,12 +250,14 @@ background: linear-gradient(to right,#440820,#240417,#d34706, #4e3002,
 }
 /****************************** End Banner Section Style ********************************/
 
+
+
 /* Start Featured products Section */
 .feature-products-section{
     background-color:#A06D5E;
-    /* width:100%; */
-    height:470px;
+    height:500px;
     margin-top:0px;
+
 }
 
 .feature-header{
@@ -268,38 +266,23 @@ background: linear-gradient(to right,#440820,#240417,#d34706, #4e3002,
     margin-top:0px;
     font-family:"Popular Header";
     font-weight:bold;
-    
-    /* color:#fff; */
-   
-animation:popular-header-ani 4s 2s infinite alternate-reverse ease-out ;
-
-   
+    color:#fff;
 }
-@keyframes popular-header-ani{
-    from{
-        background: linear-gradient(to right,#970450,#3A001E,#013f0a,#060118,#520208 );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; 
-    }
-    to{
-        background: linear-gradient(to right, #010d49,#0c0577,#055205,
-        #FD1D1D,#521000,#f5b003);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
-   
-}
-
-.feature-img-box{
+.feature-img-row{
+    width:100%!important;
     display:flex;
     align-items:center;
     justify-content:center;
-
+    margin-bottom:10px;
+   
+}
+.feature-img-box{
+   
 }
 .feature-img{
     width:100%;
     height:auto;
-    padding:10px;
+    padding:10px 0px;
     border-radius:50%;
     transition:0.5ms;
 }
@@ -310,9 +293,7 @@ animation:popular-header-ani 4s 2s infinite alternate-reverse ease-out ;
 
 /* Start Latest Gallery Section Style */
 .latest-gallery-section{
-    /* background-color:#F07B77; */
     background-color:#fff;
-    /* width:100%; */
     height:450px;
     padding-top:20px;
 }
@@ -383,36 +364,29 @@ animation:popular-header-ani 4s 2s infinite alternate-reverse ease-out ;
     transform:scale(1.1);
 }
 .shop-detail-text{
-    /* color:purple; */
     color:#fff;
     font-family:"Shop Detail";
     font-weight:bold;
 }
 .shop-detail-desc{
-/* color:purple; */
-color:rgb(61, 9, 9);
-font-size:15px;
-font-weight:bold;
+    color:rgb(61, 9, 9);
+    font-size:15px;
+    font-weight:bold;
 }
-/* End Shop Detail Section Style */
+/*********************************** End Shop Detail Section Style *************/
 
 /* Start Testimonial Section style*/
 .testimonial-section{
-    /* background-color:#F5C6A5; */
     background-color:#fffdca;
     padding-top:20px;
-    /* width:100%; */
     padding-bottom:50px;
-    /* height:500px; */
 }
 .testimonial-header{
     text-align:center;
-    /* font-variant: small-caps; */
     font-family:"Testo Header";
-    /* color:#700764; */
     background: linear-gradient(to right, #cf0664,#d11908,#f5b609,#015e31);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     animation:testo-header-ani 4s 2s infinite alternate-reverse ease-in-out ;
 }
 @keyframes testo-header-ani{
@@ -436,13 +410,11 @@ font-weight:bold;
 
 
 .testimonial-profile{
-    
     width:30px;
     margin:20px 10px 20px 20px;
 }
 .testimonial-name{
     margin-top:20px;
-    /* color:linear-gradient(rgb(132, 221, 193),rgb(0,168,241)); */
     color:rgb(46, 2, 2);
     font-style:italic;
     font-weight:bold;
@@ -476,12 +448,10 @@ font-weight:bold;
 }
 
 
-/* End Testimonial Section style */
+/********************** End Testimonial Section style ***********************/
 
-/* Start Footer Style */
+/*Start Footer Style*/
 .my-footer{
-    /* width:100%; */
-    /* height:330px; */
     background-color:rgb(92, 65, 35);
     color:gold;
 }
@@ -513,7 +483,6 @@ font-weight:bold;
 
 }
 .facebook{
-    /* color:#4267B2; */
     color:#3b5998;
 }
 .instagram{
