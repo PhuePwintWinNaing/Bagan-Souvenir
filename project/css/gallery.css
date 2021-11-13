@@ -1,0 +1,59 @@
+.gallery-section{
+    margin-top:110px;
+    background-color:whitesmoke;
+    padding-bottom:30px;
+}
+.workshop-gallery{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+
+}
+.workshop-gallery-img-box{
+    margin:auto;
+    width:40%;
+    height:200px;
+    padding:10px;
+}
+.workshop-gallery img{
+    border-radius:10px;
+    width:100%;
+    height:100%;
+}
+.workshop-gallery-header{
+    font-weight:bolder;
+    color:#000;
+    text-align:center;
+    padding-top:30px;
+    
+}
+.see-more-gallery-box{
+    display:flex;
+    margin-top:20px;
+}
+.btn-see-more-gallery{
+    margin:auto;
+    padding:10px;
+    text-decoration:none;
+    text-align:center;
+    background-color:#1d0e02;
+    color:#fff;
+    border-radius:5px;
+
+
+}
+.outer-customer-gallery{
+    display:flex;
+    flex-wrap:wrap;
+}
+.customer-love-gallery-img-box
+{
+    width:40%;
+    height:350px;
+    padding:5px;
+}
+.customer-love-gallery-img img{
+    width:100%;
+    height:100%;
+}
